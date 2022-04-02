@@ -1,0 +1,47 @@
+body {
+    background: url("https://miro.medium.com/max/1400/1*RgpkY5oh9hD7fhQ-bInSpg.png")
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  #contain {
+    width: 30%;
+    height: 30%;
+    background: #e6e6fa; /* fallback for old browsers */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    border-radius: 20px;
+  margin-top:10%
+  }
+  #loginbtn {
+    /* fallback for old browsers */
+  
+    background: #000046; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to bottom,
+      #1cb5e0,
+      #000046
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      #1cb5e0,
+      #000046
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    border: none;
+    width: 30%;
+    border-radius: 15px;
+    padding: 2%;
+  }
+  footer {
+    background-color: #202020;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    padding: 1%;
+  
+    width: 100%;
+  }
