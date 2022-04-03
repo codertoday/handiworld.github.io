@@ -4,35 +4,18 @@
   
   body {
     margin: 0;
-<<<<<<< HEAD
-    /* background: #faf0e6; */
-    background: -webkit-linear-gradient(to right,#fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045,#fd1d1d, #833ab4);
-=======
     background: linear-gradient(180deg, rgba(176, 231, 246, 0.84) 0%, #c6eaff 100%);
->>>>>>> e83882b0a4d2640e7f34305dfdaf3b3e9992e2ea
     height: 100vh;
   }
   
   .carousel {
-<<<<<<< HEAD
-    margin-left: 105px;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    width: 1300px;
-=======
     width: 1250px;
->>>>>>> e83882b0a4d2640e7f34305dfdaf3b3e9992e2ea
     height: 600px;
     position: relative;
   }
   
   .carousel > ul {
-<<<<<<< HEAD
-    margin: 40px;
-=======
     margin: 100px;
->>>>>>> e83882b0a4d2640e7f34305dfdaf3b3e9992e2ea
     padding: 50px;
     list-style: none;
   }
