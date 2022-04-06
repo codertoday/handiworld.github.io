@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-const menu = document.querySelector('#mobile-menu')
-const menuLinks =  document.querySelector('.navbar__menu')
-
-//display mobile menu
-const mobileMenu = () => {
-    menu.classList.toggle('is-active')
-    menuLinks.classList.toggle('active')
-
-}
-
-menu.addEventListener('click', mobileMenu);
-=======
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
 const navLogo = document.querySelector('#navbar__logo');
@@ -67,4 +54,3 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
->>>>>>> e83882b0a4d2640e7f34305dfdaf3b3e9992e2ea
