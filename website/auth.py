@@ -9,6 +9,10 @@ auth= Blueprint('auth',__name__)
 def login():
     return render_template("login.html",boolean=True)
 
+@auth.route('/logout')
+def logout():
+    return render_template("home.html")
+
 @auth.route('/signup',methods=['GET','POST'])
 def signup():
     if request.method == 'POST':

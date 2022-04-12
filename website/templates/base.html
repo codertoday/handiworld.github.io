@@ -14,6 +14,10 @@
       />
       <link
         rel="stylesheet"
+        href="{{ url_for('static',filename='styles/jewellarypage.css') }}"
+      />
+      <link
+        rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
         crossorigin="anonymous"
@@ -30,7 +34,7 @@
 
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="#home" id="navbar__logo">WEBSITE</a>
+        <a href="/" id="navbar__logo">WEBSITE</a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -39,7 +43,7 @@
 
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="home-page">Home</a>
+            <a href="/" class="navbar__links" id="home-page">Home</a>
           </li>
           <li class="navbar__item">
             <a href="#services" class="navbar__links" id="services-page"
@@ -60,7 +64,7 @@
             >
           </li>
           <li class="navbar__btn">
-            <a href="/login" class="button" id="sign-up">Login</a>
+            <a href="/login" class="button" id="login">Login</a>
           </li>
         </ul>
       </div>
