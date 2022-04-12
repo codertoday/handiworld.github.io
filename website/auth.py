@@ -27,4 +27,6 @@ def signup():
             flash("Password must be atleast of 8 characters!",category='error')
         else:
             flash('Account created!',category='success')
+            return redirect(url_for('views.home'))
+            
     return render_template ("signup.html")
