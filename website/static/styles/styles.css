@@ -9,11 +9,11 @@
   .navbar {
     background: #131313;
     height: 80px;
-    display: flex;
+    display: block;
+    position: sticky;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
     top: 0;
     z-index: 999;
   }
@@ -31,11 +31,9 @@
   
   #navbar__logo {
     background-color: #ff8177;
-    background-image: url("loco.jpg");
+    background-image: url("logoo.jpg");
     background-size: 100%;
-    margin-top: -0.5%;
-     width:85px;
-     height :auto;
+    margin-top: -5%;
    /* -webkit-background-clip: text;
     -moz-background-clip: text; */
     -webkit-text-fill-color: transparent;
@@ -75,6 +73,7 @@
     padding: 0 1rem;
     width: 100%;
   }
+  
   
   .button {
     display: flex;
