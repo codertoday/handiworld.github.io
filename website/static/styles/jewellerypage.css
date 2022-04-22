@@ -26,6 +26,11 @@
     transition: all .2s linear;
 }
 
+
+.im{
+  cursor: pointer;
+  
+}
   
   .navbar {
     background: #131313;
@@ -82,6 +87,7 @@
   
   .navbar__item {
     height: 80px;
+    
   }
   
   .navbar__links {

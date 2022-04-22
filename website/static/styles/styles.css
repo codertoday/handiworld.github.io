@@ -300,8 +300,8 @@
     background-color: #fe3b6f;
     background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
     background-size: 100%;
-    /* -webkit-background-clip: text;
-    -moz-background-clip: text; */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     text-transform: uppercase;
@@ -322,8 +322,8 @@
       #da22ff
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
-    /* -webkit-background-clip: text;
-    -moz-background-clip: text; */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
   }
@@ -517,19 +517,7 @@
   }
   
   .services__card:nth-child(2) {
-    background: #1fa2ff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #a6ffcb,
-      #12d8fa,
-      #1fa2ff
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #a6ffcb,
-      #12d8fa,
-      #1fa2ff
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("https://media.istockphoto.com/photos/handcrafts-and-goods-on-display-in-a-street-market-nairobi-kenya-picture-id958552122?b=1&k=20&m=958552122&s=170667a&w=0&h=WwEHw8nP1jXB3YUWU6QMT5dyZMjLuI4WEbFUO284ad8=");
   }
   
   .services__card:nth-child(3) {
