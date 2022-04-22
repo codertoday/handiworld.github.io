@@ -31,11 +31,13 @@
   
   #navbar__logo {
     background-color: #ff8177;
-    background-image: url("logoo.jpg");
+    background-image: url("loco.jpg");
     background-size: 100%;
-    margin-top: -5%;
-   /* -webkit-background-clip: text;
-    -moz-background-clip: text; */
+    margin-top: 0;
+    /*-webkit-background-clip: text;
+    -moz-background-clip: text;*/
+    width:85px;
+    height:auto; 
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     display: flex;

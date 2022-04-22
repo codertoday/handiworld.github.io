@@ -303,16 +303,11 @@
 
   .dishes .box-container{
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
-    gap:2rem;
-=======
     margin-left: 85px;
     margin-right: 85px;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:2rem;
     margin-bottom: 80px;
->>>>>>> f9c1e062e219b9c5c0f23e10f61b8b9fded3bc5d
 }
 
 .dishes .box-container .box{
