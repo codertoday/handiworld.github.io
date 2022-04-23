@@ -312,7 +312,7 @@
     margin-left: 85px;
     margin-right: 85px;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap:2rem;
+    gap:3rem;
     margin-bottom: 80px;
 }
 
@@ -355,11 +355,11 @@
 }
 
 .dishes .box-container .box:hover .fa-heart{
-    right:1.5rem;
+    right:1.2rem;
 }
 
 .dishes .box-container .box:hover .fa-eye{
-    left:1.5rem;
+    left:1.2rem;
 }
 
 .dishes .box-container .box img{

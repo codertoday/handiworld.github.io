@@ -490,12 +490,12 @@
     background-color: #ff8177;
     background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
     background-size: 100%;
-    /* -webkit-background-clip: text;
-    -moz-background-clip: text; */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     margin-bottom: 5rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   
   .services__wrapper {
@@ -505,16 +505,33 @@
   }
   
   .services__card {
-    margin: 10px;
-    height: 425px;
+    margin: 20px;
+    height: 400px;
     width: 300px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    /*background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);*/
     transition: 0.3s ease-in;
+  }
+
+  .card1{
+    /*background-image: url("https://media.istockphoto.com/photos/women-beads-and-necklace-in-jewerly-market-bali-island-picture-id930772422?k=20&m=930772422&s=612x612&w=0&h=OqUccCuKEXkPRo-TCeAuFSNLLEY7EkxG6OFSvEDyo5o=");*/
+    background-image: url("https://media.istockphoto.com/photos/handcrafts-and-goods-on-display-in-a-street-market-nairobi-kenya-picture-id958552122?b=1&k=20&m=958552122&s=170667a&w=0&h=WwEHw8nP1jXB3YUWU6QMT5dyZMjLuI4WEbFUO284ad8=");
+  }
+
+  .card2{
+    background-image: url("https://www.studiokaka.art/wp-content/uploads/2019/06/australian-gift-handmade-3-300x300.jpg");
+  }
+
+  .card3{
+    background-image: url("https://m.media-amazon.com/images/I/61iIDvElArL._SY355_.jpg");
+  }
+
+  .card4{
+    background-image: url("https://5.imimg.com/data5/ANDROID/Default/2020/8/TT/MC/BG/24889245/product-jpeg-500x500.jpg");
   }
   
   .services__card:nth-child(2) {
@@ -554,7 +571,8 @@
     outline: none;
     border-radius: 4px;
     background: #131313;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
   }
   
   .services__card button:hover {
