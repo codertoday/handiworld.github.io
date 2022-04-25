@@ -24,3 +24,11 @@ def decoratives():
 @views.route('/saree')
 def saree():
     return render_template("saree.html")
+
+@views.route('/aboutus')
+def aboutus():
+    return render_template("aboutus.html")
+
+@views.route('/contactus')
+def contactus():
+    return render_template("contactus.html")
