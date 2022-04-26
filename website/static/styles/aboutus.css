@@ -1,0 +1,109 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+    font-size: larger;
+
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #757F9A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-size: larger;
+ 
+
+}
+
+.about-section{
+    background: url(Lamp.jpg) no-repeat right;
+    background-size: 70%;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 60%; 
+    justify-content: center;
+    background-color: #fdfdfd;
+    padding: 150px;
+
+}
+
+.inner-container-h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.text{
+    font-size: 30px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+
+}
+
+.Hbtn {
+    position: absolute;
+    left: 1px;
+    top: 2px;   
+    font-size: 30px;
+    padding: 0.45rem 1.2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #fafafa;
+    font-size: 0.95rem;
+    color: #0582C9;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+    text-decoration: none;
+  }
+  .Hbtn:hover {
+    background-color: rgb(157, 227, 240);
+    color: black;
+    text-decoration: none;
+  }
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
