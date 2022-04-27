@@ -36,14 +36,14 @@ font-size: larger;
 }
 
 .inner-container-h1{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 30px;
     font-weight: 900;
 
 }
 
 .text{
-    font-size: 30px;
+    font-size: 20px;
     color: #545454;
     line-height: 30px;
     text-align: justify;
