@@ -31,24 +31,25 @@ font-size: larger;
     width: 60%; 
     justify-content: center;
     background-color: #fdfdfd;
-    padding: 150px;
+    padding: 120px;
 
 }
 
 .inner-container-h1{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     font-size: 30px;
     font-weight: 900;
 
 }
 
-.text{
-    font-size: 20px;
-    color: #545454;
-    line-height: 30px;
-    text-align: justify;
-    margin-bottom: 40px;
 
+.text{
+    font-family:Verdana;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #545454;
+    line-height: 25px;
+    text-align: justify;
 }
 
 .skills{
